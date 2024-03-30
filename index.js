@@ -22,7 +22,7 @@ const generatepassword = () => {
     password += randomDATA(LowerSet);
     password += randomDATA(symolSet);
     password += randomDATA(numberSet);
-    
+
     password += password;
 
   }
@@ -56,13 +56,14 @@ generate_btn.addEventListener("click", () => {
   repassword.value = NewRandompassword;
 
   console.log(FirstPassword.value);
-  
 
-  setTimeout(()=>{
+
+  setTimeout(() => {
     alert(`YUR NEW PASSWORD IS : ${NewRandompassword}`);
 
-  },2000)
+  }, 2000)
 });
+
 
 
 
