@@ -1,5 +1,8 @@
 body{
     background-color: #f76b8a;
+     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
@@ -7,9 +10,7 @@ body{
     display: flex;
     justify-self: center;
     flex-direction:column ;
-    position:relative;
-    top: 11%;
-    left: 37%;
+
     width: 20rem;
     height: max-content;
     padding: 1rem;
